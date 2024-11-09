@@ -39,6 +39,8 @@ DATE,WHERE,AMOUNT,TAGS,HOW
 2024-11-07,LOCALSHOP,50,Xerox and pens,UPI
 ```
 
+![Demo of the App](demo.gif)
+
 ## Development
 
 To contribute to this tool, first checkout the code. Then create a new virtual environment:
