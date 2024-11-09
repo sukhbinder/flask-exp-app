@@ -1,5 +1,5 @@
 import argparse
-from mainapp import app
+from flask_expense_app.mainapp import app
 
 def create_parser():
     parser = argparse.ArgumentParser(description="Flask expense app ")
