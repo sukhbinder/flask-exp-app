@@ -17,12 +17,12 @@ pip install flask-expense-app
 
 For help, run:
 ```bash
-flask-expense-app --help
+flask-exp--help
 ```
 
 You can also use:
 ```bash
-python -m flask_expense_app --help
+python -m flask-exp --help
 ```
 
 Expense data looks like this:
