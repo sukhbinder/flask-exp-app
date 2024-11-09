@@ -1,0 +1,26 @@
+[project]
+name = "flask-expense-app"
+version = "0.1"
+description = "Flask expense app "
+readme = "README.md"
+authors = [{name = "Sukhbinder Singh"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click"
+]
+
+[project.urls]
+Homepage = "https://github.com/sukhbinder/flask-expense-app"
+Changelog = "https://github.com/sukhbinder/flask-expense-app/releases"
+Issues = "https://github.com/sukhbinder/flask-expense-app/issues"
+CI = "https://github.com/sukhbinder/flask-expense-app/actions"
+
+[project.scripts]
+flask-exp = "flask_expense_app.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
